@@ -5,7 +5,7 @@ $id_alumno = $_POST["id_alumno"];
 
 $delete_alumno = "DELETE FROM alumnos WHERE id=" . $id_alumno;
 
-//echo $delete_alumno;
+echo $delete_alumno;
 
 if ($conn->query($delete_alumno) === TRUE) {
 	echo "Registro eliminado";
